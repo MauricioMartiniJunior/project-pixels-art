@@ -2,9 +2,7 @@
     border: 1px;
     border-style: solid;  
     width: 50px;
-    height: 50px;
-    display:inline-block;
-    
+    height: 50px;    
 }
 #white{
     background-color: white;
@@ -23,28 +21,22 @@
    background-color: red;
 }
 .selector{
-    width:fit-content;
-    margin:auto;
-
+    display: flex;
+    margin-top: 5px;
 }
 
 #title{
     display: flex;
-    justify-content: center;
     text-align: center;
 }
 #pixel-board{
-    margin-top: 20px;
-    margin-left:450px;
     display:table;
-    border: 1px;
+    margin-top: 20px;
 }
 #button{
     display:flex;
-    justify-content:baseline;
-    margin-left: 400px;
-    width: 300px;
-
+    width: 200px;
+    margin-top: 10px;
 }
 #button-random-color{
     margin: auto; 
@@ -56,4 +48,7 @@
     border: 1px solid black;
     width: 40px;
     height: 40px;
+}
+#board-size{
+    width: 30px;
 }
