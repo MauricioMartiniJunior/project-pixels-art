@@ -1,0 +1,59 @@
+.color{
+    border: 1px;
+    border-style: solid;  
+    width: 50px;
+    height: 50px;
+    display:inline-block;
+    
+}
+#white{
+    background-color: white;
+}
+#black{
+    background-color: black;
+}
+ 
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+   background-color: red;
+}
+.selector{
+    width:fit-content;
+    margin:auto;
+
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#pixel-board{
+    margin-top: 20px;
+    margin-left:450px;
+    display:table;
+    border: 1px;
+}
+#button{
+    display:flex;
+    justify-content:baseline;
+    margin-left: 400px;
+    width: 300px;
+
+}
+#button-random-color{
+    margin: auto; 
+    width: 100px;     
+}
+.pixel{
+    display:table-cell;
+    background-color:white;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+}
